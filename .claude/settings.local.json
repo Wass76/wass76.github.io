@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"d:/Robotic club/wass76.github.io\" status)",
+      "Bash(git -C \"d:/Robotic club/wass76.github.io\" add CNAME index.html)",
+      "Bash(git -C 'd:/Robotic club/wass76.github.io' commit -m ' *)",
+      "Bash(git -C \"d:/Robotic club/wass76.github.io\" push origin main)",
+      "Bash(ls \"d:/Robotic club/Logos/\")",
+      "Read(//d/Robotic club/Logos/**)",
+      "Bash(mkdir \"d:/Robotic club/wass76.github.io/Logos\" && cp \"d:/Robotic club/Logos/university-logo.png\" \"d:/Robotic club/Logos/RoboticsDay-Logo-white.png\" \"d:/Robotic club/Logos/club-profile-01.png\" \"d:/Robotic club/wass76.github.io/Logos/\" && ls \"d:/Robotic club/wass76.github.io/Logos/\")",
+      "Bash(git -C \"d:/Robotic club/wass76.github.io\" add Logos/)",
+      "Bash(nslookup robotic-day-sponsers.robotic-club.nexussolutions.tech)",
+      "Bash(nslookup wass76.github.io)"
+    ],
+    "additionalDirectories": [
+      "d:\\Robotic club\\Logos"
+    ]
+  }
+}
